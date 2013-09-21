@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <remove-project name="frameworks_native" />
+     <remove-project name="frameworks_av" />
+     <remove-project name="android_system_core" />
+     <remove-project name="android_hardware_libhardware" />
+
+     <project path="system/core" name="Rox-/android_system_core" remote="gh" revision="Rootbox"/>
+     <project path="frameworks/native" name="Rox-/frameworks_native" remote="gh" revision="Rootbox"/>
+     <project path="frameworks/av" name="Rox-/frameworks_av" remote="gh" revision="Rootbox"/>
+     <project path="hardware/libhardware" name="TeamCanjica/android_hardware_libhardware" remote="gh" revision="cm-10.1"/>
+     <project path="device/samsung/codina" name="Rox-/android_device_samsung_codina" remote="gh" revision="Rootbox"/>
+     <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="gh" revision="cm-10.1_staging"/>
+     <project path="kernel/samsung/codina" name="Rox-/android_kernel_samsung_codina" remote="gh" revision="master"/>
+     <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="gh" revision="cm-10.1_staging"/>
+
+   </manifest>
+
